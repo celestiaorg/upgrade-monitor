@@ -9,6 +9,11 @@ import (
 )
 
 func ValidateTransaction(pathToTransaction string) error {
+	// pathToTransaction is optional so this doesn't return an error if it's empty
+	if pathToTransaction == "" {
+		return nil
+	}
+
 	_, err := getTxBytes(pathToTransaction)
 	if err != nil {
 		return err

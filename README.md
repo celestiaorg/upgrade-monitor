@@ -1,6 +1,6 @@
 # Upgrade Monitor
 
-`upgrade-monitor` is a binary that monitors that status of upgrades on a Celestia network. `upgrade-monitor` can optionally publish a signed transaction to trigger an upgrade if it detects that enough validators have signalled for that upgrade.
+Upgrade monitor is a binary that monitors that status of upgrades on a Celestia network. Upgrade monitor can optionally publish a signed transaction to trigger an upgrade if it detects that enough validators have signalled for that upgrade.
 
 ## Prerequisites
 

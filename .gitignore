@@ -1,0 +1,4 @@
+# Ignore the binary
+upgrade-monitor
+# Ignore any JSON transactions
+*.json
